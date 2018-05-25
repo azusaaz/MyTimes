@@ -1,0 +1,68 @@
+@charset "utf-8";
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  background-color: black;
+  color: seashell;
+  text-align: center;
+
+}
+
+#nav-bar{
+  height: 69px;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  background-color: black;
+  z-index:2;
+  line-height: 69px;
+}
+
+#logo{
+  height: 50px;
+  margin-left: 10px;
+  float: left;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#menu{
+float: right;
+
+}
+
+#menu> ul> li{
+  
+  text-decoration: underline;
+  list-style: none;
+  display: inline;
+  margin: 0 10px;
+}
+
+#mission{
+  background-image: url("../img/img-mission-bg.jpg");
+  background-color: darkslategrey;
+  position: relative;
+  top: 69px;
+ height: 700px;
+ width: 1200px;
+ margin: 0 auto;
+}
+
+#band{
+  background-color: black;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#feature {
+  width: 1000px;
+  margin: 0 auto;
+}
